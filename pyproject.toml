@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "payby-analytics"
+version = "0.1.0"
+description = ""
+authors = ["Payby <payby@payby.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.0.7"
+psycopg2 = "^2.9.9"
+pandas = "^2.2.0"
+jupyterlab = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
